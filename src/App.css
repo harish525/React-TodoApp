@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/* TodoApp.css */
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/* Add some spacing between buttons */
+button {
+  margin-right: 5px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: blue; /* Updated to blue */
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007bff; /* Darker blue on hover */
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+/* TodoApp.css */
+/* ... (previously defined styles) ... */
+
+/* Save button - Green */
+button.save-btn {
+  background-color: #28a745;
+}
+
+/* Cancel button - Yellow */
+button.cancel-btn {
+  background-color: #ffc107;
+}
+
+/* Remove button - Red */
+button.remove-btn {
+  background-color: #dc3545;
+}
+
+/* Hover styles for all buttons */
+button:hover {
+  opacity: 0.9;
+}
+
+/* ... (previously defined styles) ... */
